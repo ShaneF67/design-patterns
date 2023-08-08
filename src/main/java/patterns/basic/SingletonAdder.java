@@ -1,4 +1,4 @@
-package patterns;
+package patterns.basic;
 
 public class SingletonAdder {
 

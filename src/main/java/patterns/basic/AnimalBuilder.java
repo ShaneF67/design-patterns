@@ -1,4 +1,4 @@
-package patterns;
+package patterns.basic;
 
 import java.util.List;
 

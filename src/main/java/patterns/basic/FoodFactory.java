@@ -1,4 +1,4 @@
-package patterns;
+package patterns.basic;
 
 import model.food.Fish;
 import model.food.Food;
