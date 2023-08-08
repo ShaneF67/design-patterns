@@ -1,9 +1,6 @@
 package patterns.basic;
 
-import model.food.Fish;
-import model.food.Food;
-import model.food.Hay;
-import model.food.Pellets;
+import patterns.basic.food.*;
 
 public class FoodFactory {
 

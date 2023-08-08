@@ -1,4 +1,4 @@
-package model.food;
+package patterns.basic.food;
 
 public class Fish extends Food {
 
