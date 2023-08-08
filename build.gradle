@@ -4,3 +4,13 @@ apply plugin: 'java'
 
 sourceCompatibility = JavaVersion.VERSION_17
 targetCompatibility = JavaVersion.VERSION_17
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation(
+            [group: 'org.projectlombok', name: 'lombok', version: '1.18.28']
+    )
+}
