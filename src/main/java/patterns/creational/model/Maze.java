@@ -1,4 +1,4 @@
-package patterns.absfactory.model;
+package patterns.creational.model;
 
 import java.util.ArrayList;
 import java.util.List;

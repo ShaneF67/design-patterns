@@ -1,4 +1,4 @@
-package patterns.absfactory.model;
+package patterns.creational.model;
 
 import lombok.AccessLevel;
 import lombok.Getter;
@@ -9,12 +9,17 @@ import java.util.Map;
 
 @Getter
 @Setter
-public class EnchantedRoom extends Room
+public class Room
 {
 
-    public EnchantedRoom(long roomNumber)
+    public enum Direction
     {
-        super(roomNumber);
+        NORTH, SOUTH, EAST, WEST
+    }
+
+    public Room(long roomNumber)
+    {
+        this.roomNumber = roomNumber;
     }
 
     private long roomNumber;

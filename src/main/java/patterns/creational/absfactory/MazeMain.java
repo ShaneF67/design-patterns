@@ -1,10 +1,10 @@
-package patterns.absfactory;
+package patterns.creational.absfactory;
 
-import patterns.absfactory.factory.EnchantedMazeFactory;
-import patterns.absfactory.factory.MazeFactory;
-import patterns.absfactory.model.Door;
-import patterns.absfactory.model.Maze;
-import patterns.absfactory.model.Room;
+import patterns.creational.absfactory.factory.EnchantedMazeFactory;
+import patterns.creational.absfactory.factory.MazeFactory;
+import patterns.creational.model.Door;
+import patterns.creational.model.Maze;
+import patterns.creational.model.Room;
 
 public class MazeMain
 {

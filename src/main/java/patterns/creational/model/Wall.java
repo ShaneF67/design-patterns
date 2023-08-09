@@ -1,4 +1,4 @@
-package patterns.absfactory.model;
+package patterns.creational.model;
 
 public class Wall implements MazeStructure
 {

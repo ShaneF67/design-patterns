@@ -1,9 +1,9 @@
-package patterns.absfactory.factory;
+package patterns.creational.absfactory.factory;
 
-import patterns.absfactory.model.Door;
-import patterns.absfactory.model.Maze;
-import patterns.absfactory.model.Room;
-import patterns.absfactory.model.Wall;
+import patterns.creational.model.Door;
+import patterns.creational.model.Maze;
+import patterns.creational.model.Room;
+import patterns.creational.model.Wall;
 
 public class MazeFactory
 {

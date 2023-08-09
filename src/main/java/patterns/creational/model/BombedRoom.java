@@ -1,4 +1,4 @@
-package patterns.absfactory.model;
+package patterns.creational.model;
 
 import lombok.Getter;
 import lombok.Setter;

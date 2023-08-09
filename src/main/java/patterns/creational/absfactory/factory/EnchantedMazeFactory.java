@@ -1,9 +1,9 @@
-package patterns.absfactory.factory;
+package patterns.creational.absfactory.factory;
 
-import patterns.absfactory.model.Door;
-import patterns.absfactory.model.DoorNeedingSpell;
-import patterns.absfactory.model.EnchantedRoom;
-import patterns.absfactory.model.Room;
+import patterns.creational.model.Door;
+import patterns.creational.model.DoorNeedingSpell;
+import patterns.creational.model.EnchantedRoom;
+import patterns.creational.model.Room;
 
 public class EnchantedMazeFactory extends MazeFactory
 {
