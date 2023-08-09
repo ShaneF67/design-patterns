@@ -9,7 +9,7 @@ public class EnchantedMazeFactory extends MazeFactory
 {
 
     @Override
-    public Room makeRoom(long roomNumber)
+    public Room makeRoom(int roomNumber)
     {
         return new EnchantedRoom(roomNumber);
     }

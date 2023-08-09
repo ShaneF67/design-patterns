@@ -1,28 +1,36 @@
 package patterns.creational.model;
 
 import lombok.AccessLevel;
-import lombok.Getter;
 import lombok.Setter;
 
 import java.util.HashMap;
 import java.util.Map;
 
-@Getter
-@Setter
 public class Room
 {
 
     public enum Direction
     {
-        NORTH, SOUTH, EAST, WEST
+        NORTH("SOUTH"), SOUTH("NORTH"), EAST("WEST"), WEST("EAST");
+
+        String opposite;
+        Direction(String opposite)
+        {
+            this.opposite = opposite;
+        }
+
+        public Direction getOpposite()
+        {
+            return Direction.valueOf(opposite);
+        }
     }
 
-    public Room(long roomNumber)
+    public Room(int roomNumber)
     {
         this.roomNumber = roomNumber;
     }
 
-    private long roomNumber;
+    private int roomNumber;
 
     @Setter(AccessLevel.PRIVATE)
     private Map<Direction, MazeStructure> sides = new HashMap<>();
@@ -30,6 +38,21 @@ public class Room
     public void setSide(Direction direction, MazeStructure structure)
     {
         sides.put(direction, structure);
+    }
+
+    public int getRoomNumber()
+    {
+        return roomNumber;
+    }
+
+    public void setRoomNumber(int roomNumber)
+    {
+        this.roomNumber = roomNumber;
+    }
+
+    public Map<Direction, MazeStructure> getSides()
+    {
+        return sides;
     }
 
 }

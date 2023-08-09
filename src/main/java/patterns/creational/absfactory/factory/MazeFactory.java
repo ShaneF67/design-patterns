@@ -17,7 +17,7 @@ public class MazeFactory
         return new Wall();
     }
 
-    public Room makeRoom(long roomNumber)
+    public Room makeRoom(int roomNumber)
     {
         return new Room(roomNumber);
     }

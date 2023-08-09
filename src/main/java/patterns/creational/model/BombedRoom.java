@@ -9,7 +9,7 @@ public class BombedRoom extends Room
 {
     private boolean isBombed;
 
-    public BombedRoom(long roomNumber)
+    public BombedRoom(int roomNumber)
     {
         super(roomNumber);
     }

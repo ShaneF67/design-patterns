@@ -12,12 +12,12 @@ import java.util.Map;
 public class EnchantedRoom extends Room
 {
 
-    public EnchantedRoom(long roomNumber)
+    public EnchantedRoom(int roomNumber)
     {
         super(roomNumber);
     }
 
-    private long roomNumber;
+    private int roomNumber;
 
     @Setter(AccessLevel.PRIVATE)
     private Map<Direction, MazeStructure> sides = new HashMap<>();
