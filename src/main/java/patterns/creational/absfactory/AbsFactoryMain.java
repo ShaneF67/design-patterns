@@ -6,7 +6,7 @@ import patterns.creational.model.Door;
 import patterns.creational.model.Maze;
 import patterns.creational.model.Room;
 
-public class MazeMain
+public class AbsFactoryMain
 {
     public static void main(String[] args)
     {

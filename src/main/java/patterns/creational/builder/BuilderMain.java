@@ -13,7 +13,7 @@ public class BuilderMain
         standardMazeBuilder.buildRoom(2);
         standardMazeBuilder.buildDoor(1, 2, Room.Direction.WEST);
         MazeGame game = new MazeGame();
-        Maze maze = game.createMaze(standardMazeBuilder);
+        Maze maze = game.buildMaze(standardMazeBuilder);
         System.out.println("Built maze!");
     }
 }

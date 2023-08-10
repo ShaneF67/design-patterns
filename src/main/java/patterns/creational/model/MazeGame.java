@@ -4,8 +4,9 @@ import patterns.creational.builder.MazeBuilder;
 
 public class MazeGame
 {
-    public Maze createMaze(MazeBuilder mazeBuilder)
+    public Maze buildMaze(MazeBuilder mazeBuilder)
     {
         return mazeBuilder.buildMaze();
     }
+
 }
