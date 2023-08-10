@@ -21,4 +21,9 @@ public class Maze
         rooms.add(room);
     }
 
+    // for prototype
+    public Maze clone()
+    {
+        return new Maze(rooms);
+    }
 }

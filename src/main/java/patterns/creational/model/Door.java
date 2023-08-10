@@ -25,4 +25,10 @@ public class Door implements MazeStructure
     {
 
     }
+
+    // for prototype
+    public Door clone()
+    {
+        return new Door(room1, room2);
+    }
 }

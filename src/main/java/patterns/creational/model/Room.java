@@ -55,4 +55,11 @@ public class Room
         return sides;
     }
 
+    // for prototype
+    public Room clone()
+    {
+        Room clonedRoom = new Room(roomNumber);
+        clonedRoom.sides = sides;
+        return clonedRoom;
+    }
 }
