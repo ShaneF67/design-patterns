@@ -6,6 +6,12 @@ import patterns.creational.model.Door;
 import patterns.creational.model.Maze;
 import patterns.creational.model.Room;
 
+
+/**
+ * INTENT:
+ * Provide an interface for creating families of related or dependent objects
+ * without specifying their concrete classes
+ */
 public class AbsFactoryMain
 {
     public static void main(String[] args)

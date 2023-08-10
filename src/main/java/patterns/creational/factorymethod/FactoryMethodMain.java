@@ -2,6 +2,11 @@ package patterns.creational.factorymethod;
 
 import patterns.creational.model.Maze;
 
+/**
+ * INTENT:
+ * Define an interface for creating an object, but let subclasses decide which class
+ * to instantiate. Factory method lets a class defer instantiation to subclasses
+ */
 public class FactoryMethodMain
 {
     public static void main(String[] args)
