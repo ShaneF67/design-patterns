@@ -19,5 +19,8 @@ It also contains a few simple examples of design patterns.
 * Abstract Factory
 * Factory Method
 * Builder
+* Prototype
 
 
+### Structural:
+* Adapter
